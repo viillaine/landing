@@ -51,6 +51,51 @@ table {
 
 /* ------------Reset------------ */
 
+body {}
+
+.navbar {
+	background-color: #fff;
+	border-bottom: 1px solid lightgrey;
+}
+
+.content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0 15px;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+}
+
+#logo {
+	height: 70px;
+	width: 26px;	
+}
+
+.links {
+	float: right;
+	padding: 1.8em;
+	margin: 4px;
+	font-size: 1em;
+	font-family: sans-serif;
+}
+
+.links > li {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
 
 
 
