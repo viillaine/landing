@@ -51,8 +51,6 @@ table {
 
 /* ------------End Reset------------ */
 
-body {}
-
 .navbar {
 	background-color: #fff;
 	border-bottom: 1px solid lightgrey;
@@ -147,6 +145,15 @@ body {}
     color: #fff;
     cursor: pointer;
 }
+
+.big-button:hover {
+	background-color: #cc4f38;
+	-webkit-transition: background-color 0.5s ease-out;
+  	-moz-transition: background-color 0.5s ease-out;
+  	-o-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
+}
+
 /*------------End Introduction------------*/
 
 /*------------Overview Section------------*/
@@ -221,7 +228,7 @@ body {}
 	padding: 1rem;
 	}
 
-.footer h3 {
+.footer h2 {
 	color: #000;
 	font-size: 0.9rem;
 }
@@ -232,9 +239,13 @@ body {}
 .social li {
 	display: inline-block;
 	padding: 1rem;
+	cursor: pointer;
 }
 
-
+.footer h3 {
+	font-weight: 300;
+	font-size: 0.8rem;
+}
 
 
 
