@@ -178,9 +178,6 @@ body {}
 
 /* ----- My code----- */
 
-
-
-
 .devices {
 	width: 33.3333333%;
 	display: inline-block;
@@ -193,23 +190,53 @@ body {}
 	height: 7rem;
 }
 
-.cases h1,
-.cases h3 {
+.content.overview h1,
+.content.overview h3 {
 	color: #000;	
 }
 
-.cases h1 {
+.content.overview h1 {
 	text-align: center;
 	font-size: 2.5rem;
 	margin-top: 5rem;
 	font-weight: 300;
 }
 
-.cases h3 {
+.content.overview h3 {
 	font-size: 1.5rem;
 	position: absolute;
 	width: 10rem;
 	margin-top: 2rem;
-
 }
+
+
+/*------------End Overview Section------------*/
+
+/*------------Footer------------*/
+
+.content.footer {
+	margin-top: 20rem;
+	border-top: 0.5px solid #838994;
+	text-align: center;
+	padding: 1rem;
+	}
+
+.footer h3 {
+	color: #000;
+	font-size: 0.9rem;
+}
+
+.social {
+	margin: 0 auto;
+}
+.social li {
+	display: inline-block;
+	padding: 1rem;
+}
+
+
+
+
+
+
 
