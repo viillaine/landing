@@ -147,6 +147,11 @@ body {}
     color: #fff;
     cursor: pointer;
 }
+
+.big-button:hover {
+	background-color: #cc4f38;
+}
+
 /*------------End Introduction------------*/
 
 /*------------Overview Section------------*/
