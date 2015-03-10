@@ -58,6 +58,7 @@ body {}
 	border-bottom: 1px solid lightgrey;
 	position: fixed;
 	width: 100%;
+	z-index: 9999;
 }
 
 .content {
@@ -140,17 +141,75 @@ body {}
 /*centering the button */
     display: block;
     margin: 2rem auto;
-    width: ;
     background-color: tomato;
     font-size: 1.3rem;
     font-weight: 300;
     color: #fff;
     cursor: pointer;
 }
+/*------------End Introduction------------*/
+
+/*------------Overview Section------------*/
+
+/*
+.content .cases h1 {
+	text-align: center;
+	font-size: 2.5rem;
+	margin-top: 5rem;
+	font-weight: 300;
+}
+
+.cases h1,
+.cases h3 {
+	color: #000;	
+}
+
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging 
+        border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+}
+
+*/
+
+
+/* ----- My code----- */
 
 
 
 
+.devices {
+	width: 33.3333333%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding-left: 4rem;
+}
 
+.img {
+	margin-top: 2rem;
+	height: 7rem;
+}
 
+.cases h1,
+.cases h3 {
+	color: #000;	
+}
+
+.cases h1 {
+	text-align: center;
+	font-size: 2.5rem;
+	margin-top: 5rem;
+	font-weight: 300;
+}
+
+.cases h3 {
+	font-size: 1.5rem;
+	position: absolute;
+	width: 10rem;
+	margin-top: 2rem;
+
+}
 
